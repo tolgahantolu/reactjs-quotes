@@ -1,0 +1,25 @@
+.nav {
+  height: 8rem;
+  background-color: #3b999b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.nav a {
+  font-size: 1.8rem;
+  color: #e3e4e6;
+  padding-bottom: 0.3rem;
+}
+
+.active {
+  border-bottom: 2px solid #ee5873;
+}
